@@ -1,0 +1,14 @@
+{
+  "name": "zstreams-dbf-parse",
+  "version": "0.0.1",
+  "description": "Streaming DBF parser for node.js streams",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zipscene/zstreams-dbf-parse.git"
+  },
+  "dependencies": {
+    "dbfparser": "git+ssh://git@github.com:clshortfuse/dbfParser.git",
+    "zstreams": "^3.2.2"
+  }
+}

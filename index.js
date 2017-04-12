@@ -10,10 +10,6 @@ function DBFParse(strict, opt) {
 	var dbfParser = this.dbfParser = new dbfparser();
 	var self = this;
 
-	dbfParser.on('header', function(header) {
-		self.push(header);
-	});
-
 	dbfParser.on('record', function(record) {
 		self.push(record);
 	});

@@ -1,6 +1,6 @@
 {
   "name": "zstreams-dbf-parse",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Streaming DBF parser for node.js streams",
   "main": "./index.js",
   "repository": {
